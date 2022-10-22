@@ -60,7 +60,7 @@ article {
 
 section {
     /*    background-color: antiquewhite;*/
-    color: crimson;
+    color: darkslateblue;
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 10px;
@@ -76,4 +76,7 @@ img {
 
 ul {
     list-style: disc;
+}
+li{
+    color: black;
 }
