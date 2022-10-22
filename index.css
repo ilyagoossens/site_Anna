@@ -37,6 +37,11 @@ section {
 
 }
 
+.border1 {
+    border: 2px solid #9E7BFF;
+    border-radius: 5px;
+}
+
 img {
     width: 20px;
     height: 20px;
@@ -45,7 +50,8 @@ img {
 ul {
     list-style: disc;
 }
-li{
+
+li {
     color: black;
 }
 
@@ -56,7 +62,7 @@ li{
     padding-left: 5px;
     padding-right: 5px;
     align-content: center;
-    
+
 }
 
 .parallax {
@@ -83,5 +89,3 @@ li{
 .right {
     float: right;
 }
-
-
