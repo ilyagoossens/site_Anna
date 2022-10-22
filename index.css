@@ -1,40 +1,65 @@
-*{
-    font: 
+* {
+    font:
 }
+
 /*allign all the content*/
 
-body{
-    background-color:cornsilk;
+body {
+    background-color: cornsilk;
 }
-nav{
+
+body,
+html {
+    height: 100%;
+}
+
+nav {
     border-radius: 15px;
 }
-.wrap{
+
+.wrap {
     width: 400px;
     margin-left: 5px;
     margin-right: 5px;
     padding-left: 5px;
     padding-right: 5px;
     align-content: center;
-    border: 5px #E6E6FA solid ;  
-     
+    border: 5px #E6E6FA solid;
 }
-.left{
+
+.parallax {
+    /* The image used */
+    background-image: url('img_parallax.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left {
     float: left;
 }
-.right{
+
+.right {
     float: right;
 }
-article{
+
+article {
     display: flex;
-/*    border: 3px solid blue;*/
+    /*    border: 3px solid blue;*/
     border-radius: 15px;
     margin: 30px;
     padding: 20px;
     background-color: azure;
 }
-section{
-/*    background-color: antiquewhite;*/
+
+section {
+    /*    background-color: antiquewhite;*/
     color: crimson;
     border-radius: 10px;
     padding-left: 5px;
@@ -43,10 +68,12 @@ section{
     margin-right: 10px;
 
 }
-img{
+
+img {
     width: 20px;
     height: 20px;
 }
-ul{
+
+ul {
     list-style: disc;
 }
